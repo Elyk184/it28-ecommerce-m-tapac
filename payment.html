@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Payment and Accounting</title>
 <style>
+  
   /* Center the form */
   body {
     display: flex;
@@ -54,6 +55,7 @@
 </style>
 </head>
 <body>
+ 
   <h1 style="text-align: center;">Payment and Accounting</h1>
   <form id="paymentForm">
     <label for="amount">Amount:</label>
@@ -68,6 +70,7 @@
     <input type="text" id="total" name="total" readonly>
     
     <button type="submit">Submit Payment</button>
+  
   </form>
 
   <script>
@@ -80,6 +83,7 @@
 
       document.getElementById('total').value = total.toFixed(2); // Display total with two decimal places
     }
+    
   </script>
 </body>
 </html>
